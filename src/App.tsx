@@ -4,6 +4,7 @@
  */
 
 import { useState } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Cover from './components/Cover';
 import Hero from './components/Hero';
 import Quote from './components/Quote';
@@ -51,6 +52,7 @@ export default function App() {
           setTrackIndex={setTrackIndex}
         />
       )}
+      <SpeedInsights />
     </div>
   );
 }
