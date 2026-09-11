@@ -1,0 +1,6 @@
+{
+  "name": "Undangan Pernikahan Islami",
+  "description": "Undangan pernikahan digital interaktif dengan nuansa Islami.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
