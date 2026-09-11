@@ -4,6 +4,7 @@
  */
 
 import { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import Cover from './components/Cover';
 import Hero from './components/Hero';
 import Quote from './components/Quote';
@@ -51,6 +52,8 @@ export default function App() {
           setTrackIndex={setTrackIndex}
         />
       )}
+      
+      <Analytics />
     </div>
   );
 }
